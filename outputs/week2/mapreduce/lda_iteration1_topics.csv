@@ -1,0 +1,11 @@
+topic,label,issue_count,top_terms
+0,Execution components and lifecycle,57,"reduc, map, output, shuffl, data, sort, mapper, use, combin, memori, node, task"
+1,Data and file processing,39,"key, job, data, use, support, input, add, valu, encrypt, hadoop, process, context"
+2,use / implement / key,56,"use, implement, key, need, servic, class, record, method, interfac, stream, serial, write"
+3,Data and file processing,47,"file, input, split, mapreduc, token, job, use, user, need, shuffl, implement, local"
+4,Execution components and lifecycle,80,"task, job, jobtrack, tasktrack, memori, time, fail, run, heartbeat, kill, reduc, new"
+5,Execution components and lifecycle,39,"task, use, contain, tracker, attempt, code, split, run, specul, number, current, file"
+6,Execution components and lifecycle,79,"file, job, histori, block, directori, use, raid, log, server, hadoop, hdfs, creat"
+7,Scheduling and coordination,75,"queue, hadoop, schedul, use, configur, object, apach, user, org, cluster, yarn, java"
+8,Execution components and lifecycle,85,"job, task, schedul, reduc, slot, map, run, cluster, node, resourc, number, user"
+9,Data and file processing,30,"file, committ, job, support, host, use, distcp, cach, copi, data, new, storag"

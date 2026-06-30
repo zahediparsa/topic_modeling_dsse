@@ -1,0 +1,10 @@
+topic,label,issue_count,top_terms
+0,Map/reduce execution and speculation,67,"component, reduc, connector, map, time, run, phase, specul, quality_reliability, execut, data, copi"
+1,"Sorting, combining and partitioning",36,"data, quality_performance, reduc, connector, map, sort, combin, merg, component, aggreg, partit, hash"
+2,Commit behavior and workload execution,19,"solution, component, map-reduc, simul, host, quality_performance, committ, workload, set, quality_scalability, featur, data"
+3,"Job state, history and submission",125,"component, data, run, quality_reliability, solution, histori, time, state, submit, dfs, connector, context"
+4,Caching and resource limits,52,"component, quality_performance, cach, data, resourc, reduc, limit, map, disk, configur, user, run"
+5,"HDFS, RAID and input streams",106,"data, component, directori, raid, stream, hdfs, inputformat, size, store, multipl, connector, quality_performance"
+6,"DistCp, Rumen and tooling",48,"solution, data, quality_scalability, info, jira, distcp, common, rumen, quality_maintainability, xml, success, tool"
+7,"Trackers, slots and heartbeats",87,"component, tracker, contain, slot, solution, quality_reliability, run, attempt, quality_maintainability, map, heartbeat, local"
+8,"Security, configuration and APIs",47,"quality_security, component, connector, user, interfac, apach, org, java, configur, applic, yarn, method"

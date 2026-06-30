@@ -1,0 +1,300 @@
+{
+  "issues": 587,
+  "baseline_lda_topics": 10,
+  "selected_lda_topics": 9,
+  "selected_lda_coherence": 0.4094961482968466,
+  "lda_coherence_scores": {
+    "3": 0.3588866886815995,
+    "4": 0.3734102518810116,
+    "5": 0.3554094561801623,
+    "6": 0.3477868816891494,
+    "7": 0.3889841703680143,
+    "8": 0.3740505953574941,
+    "9": 0.4094961482968466,
+    "10": 0.37144374678078707
+  },
+  "bertopic_topics_excluding_outliers": 16,
+  "bertopic_outliers": 193,
+  "lda_topics": [
+    {
+      "topic": 0,
+      "label": "Map/reduce execution and speculation",
+      "issue_count": 67,
+      "top_terms": "component, reduc, connector, map, time, run, phase, specul, quality_reliability, execut, data, copi"
+    },
+    {
+      "topic": 1,
+      "label": "Sorting, combining and partitioning",
+      "issue_count": 36,
+      "top_terms": "data, quality_performance, reduc, connector, map, sort, combin, merg, component, aggreg, partit, hash"
+    },
+    {
+      "topic": 2,
+      "label": "Commit behavior and workload execution",
+      "issue_count": 19,
+      "top_terms": "solution, component, map-reduc, simul, host, quality_performance, committ, workload, set, quality_scalability, featur, data"
+    },
+    {
+      "topic": 3,
+      "label": "Job state, history and submission",
+      "issue_count": 125,
+      "top_terms": "component, data, run, quality_reliability, solution, histori, time, state, submit, dfs, connector, context"
+    },
+    {
+      "topic": 4,
+      "label": "Caching and resource limits",
+      "issue_count": 52,
+      "top_terms": "component, quality_performance, cach, data, resourc, reduc, limit, map, disk, configur, user, run"
+    },
+    {
+      "topic": 5,
+      "label": "HDFS, RAID and input streams",
+      "issue_count": 106,
+      "top_terms": "data, component, directori, raid, stream, hdfs, inputformat, size, store, multipl, connector, quality_performance"
+    },
+    {
+      "topic": 6,
+      "label": "DistCp, Rumen and tooling",
+      "issue_count": 48,
+      "top_terms": "solution, data, quality_scalability, info, jira, distcp, common, rumen, quality_maintainability, xml, success, tool"
+    },
+    {
+      "topic": 7,
+      "label": "Trackers, slots and heartbeats",
+      "issue_count": 87,
+      "top_terms": "component, tracker, contain, slot, solution, quality_reliability, run, attempt, quality_maintainability, map, heartbeat, local"
+    },
+    {
+      "topic": 8,
+      "label": "Security, configuration and APIs",
+      "issue_count": 47,
+      "top_terms": "quality_security, component, connector, user, interfac, apach, org, java, configur, applic, yarn, method"
+    }
+  ],
+  "bertopic_topics": [
+    {
+      "topic": -1,
+      "label": "Outliers",
+      "issue_count": 193,
+      "top_terms": "outlier"
+    },
+    {
+      "topic": 0,
+      "label": "YARN integration and application clients",
+      "issue_count": 49,
+      "top_terms": "yarn, rm, mr, jhs, client, app, token, application, log, job, jira, user"
+    },
+    {
+      "topic": 1,
+      "label": "Sort/merge and reduce pipeline",
+      "issue_count": 43,
+      "top_terms": "sort, reduce, combiner, reducer, map, hash, merge, mapper, key, output, memory, data"
+    },
+    {
+      "topic": 2,
+      "label": "Schedulers, queues and preemption",
+      "issue_count": 39,
+      "top_terms": "scheduler, capacity, jobs, fair, queue, tasks, cluster, capacity scheduler, preemption, fair scheduler, scheduling, schedulers"
+    },
+    {
+      "topic": 3,
+      "label": "Java/YARN server configuration",
+      "issue_count": 36,
+      "top_terms": "java, yarn, apache, org apache, org, server, nodemanager, apache yarn, dfs, principal, trunk, common"
+    },
+    {
+      "topic": 4,
+      "label": "Rumen and Gridmix workload traces",
+      "issue_count": 26,
+      "top_terms": "rumen, job, jobs, gridmix, traces, information, load, list, string, time, select, trace"
+    },
+    {
+      "topic": 5,
+      "label": "Shuffle transfer and memory",
+      "issue_count": 25,
+      "top_terms": "shuffle, reduce, version, memory, map output, connection, map, output, copy, rack, data, plugin"
+    },
+    {
+      "topic": 6,
+      "label": "Job history and log storage",
+      "issue_count": 25,
+      "top_terms": "history, job history, history server, history files, server, files, job, jobhistory, logs, jobs, time, directory"
+    },
+    {
+      "topic": 7,
+      "label": "Streaming job execution",
+      "issue_count": 22,
+      "top_terms": "job, input, streaming, command, dfs, data, time, output, end, mapper, execution, reducer"
+    },
+    {
+      "topic": 8,
+      "label": "Distributed cache and dependencies",
+      "issue_count": 21,
+      "top_terms": "cache, distributed cache, distributed, distributedcache, jars, files, file, archive, hdfs, caching, path, tool"
+    },
+    {
+      "topic": 9,
+      "label": "Task memory limits",
+      "issue_count": 18,
+      "top_terms": "memory, task, tasks, reduce, tasktracker, running, limit, usage, hang, lost, users, memory usage"
+    },
+    {
+      "topic": 10,
+      "label": "Input formats and compressed splits",
+      "issue_count": 17,
+      "top_terms": "text, file, split, recordreader, inputformat, compressed, data, format, record, line, input, bzip2"
+    },
+    {
+      "topic": 11,
+      "label": "Failure recovery and retries",
+      "issue_count": 16,
+      "top_terms": "fail, job, bad, failures, failed, map, mapred local, tasktracker, tt, retry, tasks, local dirs"
+    },
+    {
+      "topic": 12,
+      "label": "RAID parity and block placement",
+      "issue_count": 16,
+      "top_terms": "blocks, raid, files, parity, block, raided, policy, file, fix, processed, source, placement"
+    },
+    {
+      "topic": 13,
+      "label": "Input split sizing and file listing",
+      "issue_count": 15,
+      "top_terms": "input, files, size, data, implementations, splits, split, listing, large, range, storage, recursive"
+    },
+    {
+      "topic": 14,
+      "label": "Serialization and output schemas",
+      "issue_count": 14,
+      "top_terms": "field, record, multipleoutputs, write, schema, serialization, parameter, value, methods, class, metadata, output"
+    },
+    {
+      "topic": 15,
+      "label": "Heartbeat protocol and task assignment",
+      "issue_count": 12,
+      "top_terms": "heartbeat, tasktracker, interval, task, message, tasks, send, jobtracker, band, assignment, response, task heartbeat"
+    }
+  ],
+  "ontology_replacements": {
+    "component": [
+      "client",
+      "cluster",
+      "job",
+      "jobtrack",
+      "mapper",
+      "node",
+      "process",
+      "reducer",
+      "server",
+      "servic",
+      "task",
+      "tasktrack",
+      "thread",
+      "worker"
+    ],
+    "connector": [
+      "commun",
+      "connect",
+      "fetch",
+      "read",
+      "receiv",
+      "request",
+      "send",
+      "shuffl",
+      "transfer",
+      "write"
+    ],
+    "data": [
+      "block",
+      "data",
+      "file",
+      "input",
+      "key",
+      "log",
+      "metadata",
+      "output",
+      "record",
+      "split",
+      "valu"
+    ],
+    "solution": [
+      "authent",
+      "cache",
+      "checkpoint",
+      "compress",
+      "encrypt",
+      "pool",
+      "queue",
+      "replic",
+      "schedul"
+    ],
+    "quality_performance": [
+      "cpu",
+      "effici",
+      "fast",
+      "latenc",
+      "memori",
+      "optim",
+      "overhead",
+      "perform",
+      "slow",
+      "speed",
+      "throughput"
+    ],
+    "quality_reliability": [
+      "availab",
+      "error",
+      "fail",
+      "fault",
+      "recover",
+      "reliabl",
+      "restart",
+      "retry",
+      "robust"
+    ],
+    "quality_security": [
+      "auth",
+      "author",
+      "credenti",
+      "kerbero",
+      "permiss",
+      "secur",
+      "ssl",
+      "token"
+    ],
+    "quality_scalability": [
+      "capac",
+      "concurr",
+      "distribut",
+      "parallel",
+      "scal"
+    ],
+    "quality_maintainability": [
+      "clean",
+      "compat",
+      "deprecat",
+      "maintain",
+      "refactor",
+      "test",
+      "upgrad"
+    ]
+  },
+  "domain_stopwords": [
+    "add",
+    "allow",
+    "chang",
+    "creat",
+    "current",
+    "hadoop",
+    "implement",
+    "make",
+    "mapreduc",
+    "mapreduce",
+    "need",
+    "new",
+    "number",
+    "provid",
+    "support",
+    "use"
+  ]
+}
